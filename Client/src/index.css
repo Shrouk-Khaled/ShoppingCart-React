@@ -24,3 +24,16 @@
 main{
   grid-area: "main";
 }
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+
+.wrapper .products{
+  width: 70%;
+}
+.wrapper .filter{
+  width: 30%;
+}
